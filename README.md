@@ -1,6 +1,9 @@
-# ECSS-10 Training
+# ECSS-10 Engineering Notes and Labs
 
-Practical training materials and engineering notes for ECSS-10.
+Practical training material, architecture references and troubleshooting notes based
+on hands-on work with ECSS-10 environments in the 3.14–3.18 range. Production cases
+are maintained separately so this repository remains usable as a structured knowledge
+base.
 
 ## Topics
 
@@ -13,6 +16,11 @@ Practical training materials and engineering notes for ECSS-10.
 - IVR
 - Class of Service
 - Troubleshooting
+- Domains and IP Sets
+- SIP Profiles and Mycelium CLI
+- Clusters and Platform Services
+- SBC/SMG Integration
+- Call Center and API
 
 ## Labs
 
@@ -30,13 +38,21 @@ Practical training materials and engineering notes for ECSS-10.
 ## Architecture
 
 - [ECSS-10 Architecture and Procurement Review](architecture/ecss10-architecture-procurement-review.md)
+- [ECSS-10 Engineering Map](reference/ecss10-engineering-map.md)
 
 ## Related Production Cases
 
 - [ECSS-10 Multi-Domain Registration Issue](https://github.com/nikita-voip/voice-integration-projects/tree/main/production-cases/01-ecss10-multi-domain-registration)
+- [ECSS-10 3.18 Deployment and PostgreSQL Recovery](https://github.com/nikita-voip/voice-integration-projects/tree/main/production-cases/08-ecss10-deployment-postgresql-recovery)
 
 Detailed incident write-ups live in `voice-integration-projects` to avoid duplicating
 the same production case in the training repository.
 
 Author: Nikita Maksimenko
-Senior VoIP Engineer
+Senior VoIP / Voice Infrastructure Engineer
+
+## Portfolio Navigation
+
+- [Production Voice Integration Cases](https://github.com/nikita-voip/voice-integration-projects)
+- [AI Voice Lab](https://github.com/nikita-voip/ai-voice-lab)
+- [VoIP Notes](https://github.com/nikita-voip/voip-notes)
